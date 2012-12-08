@@ -1,0 +1,21 @@
+{
+    "name": "christiaan/emailfeed",
+    "description": "Simple commandline tool that reads a mailbox and writes the recent mails into a rss feed",
+    "require": {
+        "cilex/cilex": "0.1",
+        "suin/php-rss-writer": "1.2",
+        "tedivm/fetch": "dev-master"
+    },
+    "stability": "dev",
+    "authors": [
+        {
+            "name": "Christiaan",
+            "email": "anotherhero@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "Christiaan\\EmailFeed" : "src"
+        }
+    }
+}
