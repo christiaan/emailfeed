@@ -55,7 +55,7 @@ class GenerateFeedCommand extends Command
             ->appendTo($feed);
 
         $generator = new EmailFeedGenerator($server, $feed, $channel);
-        $generator->createFeed($feedFile, $dir, $url, $limit);
+        $generator->createFeed($dir, $filename, $url, $limit);
 
         $output->writeln('Succesfully generated ' . $feedFile);
     }

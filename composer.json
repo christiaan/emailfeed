@@ -1,7 +1,11 @@
 {
     "name": "christiaan/emailfeed",
-    "description": "Simple commandline tool that reads a mailbox and writes the recent mails into a rss feed",
+    "description": "Simple tool that reads a mailbox and writes the recent mails into a rss feed",
+    "keywords": ["email to rss", "email", "rss"],
+    "homepage": "https://github.com/christiaan/emailfeed",
+    "license": "BSD-3-Clause",
     "require": {
+        "php": ">=5.3.2",
         "cilex/cilex": "0.1",
         "suin/php-rss-writer": "1.2",
         "tedivm/fetch": "dev-master"
@@ -9,7 +13,7 @@
     "stability": "dev",
     "authors": [
         {
-            "name": "Christiaan",
+            "name": "Christiaan Baartse",
             "email": "anotherhero@gmail.com"
         }
     ],
